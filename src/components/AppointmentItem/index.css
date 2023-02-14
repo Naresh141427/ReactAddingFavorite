@@ -1,0 +1,36 @@
+.Appointment {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.title-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.star-image {
+  height: 17px;
+  width: 17px;
+}
+.date {
+  color: #9897f0;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
